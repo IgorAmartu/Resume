@@ -5,17 +5,26 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Моё Резюме</title>
+
+  <!-- Подключаем шрифты -->
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
   <!-- Подключаем иконки -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+  <!-- Подключаем стили -->
   <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="style.css" />
+
 </head>
 
 <body>
-  <div class="cv">
-    <section>
-      <h1>Игорь Киреев</h1>
-      <h2>Веб Разработчик</h2>
+  <div class="cv">    
+
+    <section>      
 
       <div class="theme-switch-wrapper">
         <label class="theme-switch">
@@ -23,6 +32,24 @@
           <div class="slider round"></div>
         </label>
         <span class="theme-switch__label">Тёмная Тема</span>
+      </div>
+
+      <div class="hero">
+        <div class="container hero__container">
+          <div class="hero__about">
+            <h1 class="hero__title">Веб-разработчик</h1>
+            <h2 class="hero__subtitle">Игорь Киреев</h2>
+            <p class="hero__description">
+              Привет, я начинающий веб-разработчик.
+            </p>
+          </div>
+    
+          <div class="hero__box">
+            <img class="hero__box-img" src="1.png" alt="Фото" />
+          </div>
+    
+        </div>
+    
       </div>
 
       <div class="contacts">
