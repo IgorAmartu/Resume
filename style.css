@@ -39,7 +39,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 45px;
 }
 
 .container {
@@ -51,7 +51,7 @@ h3 {
 
 .hero__container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax( 290px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(290px,1fr));
   grid-gap: 20px;
 }
 
@@ -59,8 +59,6 @@ h3 {
 .hero__about {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-
 }
 
 .hero__title {
@@ -102,7 +100,8 @@ h3 {
   overflow: hidden;
   border: 10px solid #fff;
 
-  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  //background-image: linear-gradient(to right, #f093fb 0%, #f5576c 100%);
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
 
   animation: ava-animate 5s infinite alternate;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, .5);
@@ -165,7 +164,7 @@ h3 {
   }
 
   100% {
-    border-radius: 18% 82% 24% 76% / 43% 54% 46% 57%;
+    border-radius: 30% 30% 30% 30% / 30% 30% 30% 30%;  
   }
 }
 
