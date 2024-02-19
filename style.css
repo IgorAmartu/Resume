@@ -101,7 +101,16 @@ h3 {
   border: 10px solid #fff;
 
   //background-image: linear-gradient(to right, #f093fb 0%, #f5576c 100%);
-  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  //background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  //background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  //background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+  //background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+  //background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+  //background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+  background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+ background-blend-mode: normal, lighten, soft-light;
+  
+  
 
   animation: ava-animate 5s infinite alternate;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, .5);
