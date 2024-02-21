@@ -107,21 +107,6 @@ section {
 }
 
 @media (max-width: 575px) {
-
-  .underline-one {
-    position: relative;
-    cursor: pointer;
-    text-decoration: underline; /* Убираем подчеркивание */
-  }
-  
-  .underline-one:after {
-    background-color: var(--primary-color); /* Цвет подчеркивания при исчезании линии*/
-  }
-  
-  .underline-one:hover:after {
-    background-color: var(--primary-color);
-  }
-
   .experience {
     display: block;
   }
