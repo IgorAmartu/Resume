@@ -107,6 +107,21 @@ section {
 }
 
 @media (max-width: 575px) {
+
+  .underline-one {
+    position: relative;
+    cursor: pointer;
+    text-decoration: underline; /* Убираем подчеркивание */
+  }
+  
+  .underline-one:after {
+    
+  }
+  
+  .underline-one:hover:after {
+   
+  }
+
   .experience {
     display: block;
   }
