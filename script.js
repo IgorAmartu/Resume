@@ -12,7 +12,7 @@ checkbox.addEventListener('change', function () {
   transition();
   if (this.checked) {
     document.documentElement.setAttribute('data-theme', 'dark');
-    localStorage.setItem('data-theme', 'dark');
+    localStorage.setItem('data-t   heme', 'dark');
   } else {
     document.documentElement.setAttribute('data-theme', 'light');
     localStorage.setItem('data-theme', 'light');
